@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const password = passwordInput.value.trim();
 
     // Show alert
-    alert(Logged in as ${username});
+    alert(`Logged in as ${username}`);
 
     // Only save if "Remember me" is checked
     if (checkbox.checked) {
